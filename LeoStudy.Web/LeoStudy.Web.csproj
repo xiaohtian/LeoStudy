@@ -126,7 +126,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\ConfigHelper.cs" />
-    <Compile Include="Models\WeChatRequestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
     <Folder Include="Views\Weixin\" />
   </ItemGroup>
   <ItemGroup>

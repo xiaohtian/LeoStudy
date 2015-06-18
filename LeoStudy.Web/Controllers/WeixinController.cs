@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using LeoStudy.Web.Helper;
-using LeoStudy.Web.Models;
 using LeoStudy.WeixinApplication.MessageHandlers;
 using Senparc.Weixin.MP;
 using Senparc.Weixin.MP.Entities.Request;

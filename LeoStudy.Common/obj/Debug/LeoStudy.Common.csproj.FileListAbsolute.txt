@@ -40,6 +40,5 @@ F:\Person\LeoStudy\LeoStudy.Common\bin\Debug\System.Web.Razor.xml
 F:\Person\LeoStudy\LeoStudy.Common\bin\Debug\System.Web.WebPages.xml
 F:\Person\LeoStudy\LeoStudy.Common\bin\Debug\System.Web.WebPages.Deployment.xml
 F:\Person\LeoStudy\LeoStudy.Common\bin\Debug\System.Web.WebPages.Razor.xml
-F:\Person\LeoStudy\LeoStudy.Common\obj\Debug\LeoStudy.Common.csprojResolveAssemblyReference.cache
 F:\Person\LeoStudy\LeoStudy.Common\obj\Debug\LeoStudy.Common.dll
 F:\Person\LeoStudy\LeoStudy.Common\obj\Debug\LeoStudy.Common.pdb
