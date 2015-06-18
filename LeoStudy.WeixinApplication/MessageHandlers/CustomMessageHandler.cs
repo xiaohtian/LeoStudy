@@ -132,5 +132,33 @@ namespace LeoStudy.WeixinApplication.MessageHandlers
             }
             return responseMessage;
         }
+        /// <summary>
+        /// 处理点击事件
+        /// </summary>
+        /// <param name="requestMessage"></param>
+        /// <returns></returns>
+        public override IResponseMessageBase OnEvent_ClickRequest(RequestMessageEvent_Click requestMessage)
+        {
+            var responseMessage = requestMessage.CreateResponseMessage<ResponseMessageText>();
+            switch (requestMessage.EventKey)
+            {
+                case "MyProfile":
+                    {
+                        responseMessage.Content = "我是一个程序员。";
+                    }
+                    break;
+                case "Menu":
+                    {
+                        responseMessage.Content = "这是菜单。";
+                    }
+                    break;
+                case "ContactMe":
+                    {
+                        responseMessage.Content = "加我把，我的QQ......";
+                    }
+                    break;
+            }
+            return responseMessage;
+        }
     }
 }
