@@ -40,6 +40,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Senparc.Weixin">
+      <HintPath>..\packages\Senparc.Weixin.3.3.6\lib\net40\Senparc.Weixin.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.Weixin.MP">
+      <HintPath>..\packages\Senparc.Weixin.MP.11.3.2\lib\net40\Senparc.Weixin.MP.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -113,9 +119,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\WeixinController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\ConfigHelper.cs" />
     <Compile Include="Models\WeChatRequestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -135,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Weixin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -144,6 +153,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeoStudy.Common\LeoStudy.Common.csproj">
+      <Project>{07904a53-7bb6-48a5-abf0-ed6ea64c8ef4}</Project>
+      <Name>LeoStudy.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LeoStudy.WeixinApplication\LeoStudy.WeixinApplication.csproj">
+      <Project>{511988fe-0368-47d4-b728-93c8aadfc8c8}</Project>
+      <Name>LeoStudy.WeixinApplication</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

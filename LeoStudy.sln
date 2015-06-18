@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoStudy.Common", "LeoStudy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoStudy.Web", "LeoStudy.Web\LeoStudy.Web.csproj", "{D57A4E5F-1BED-456F-A41B-812095C1C116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoStudy.WeixinApplication", "LeoStudy.WeixinApplication\LeoStudy.WeixinApplication.csproj", "{511988FE-0368-47D4-B728-93C8AADFC8C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511988FE-0368-47D4-B728-93C8AADFC8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511988FE-0368-47D4-B728-93C8AADFC8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511988FE-0368-47D4-B728-93C8AADFC8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511988FE-0368-47D4-B728-93C8AADFC8C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
