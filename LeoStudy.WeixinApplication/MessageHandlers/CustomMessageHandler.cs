@@ -96,7 +96,7 @@ namespace LeoStudy.WeixinApplication.MessageHandlers
                 else
                 {
                     //退出APP测试
-                    responseMessage.Content = "您已经退出【盛派网络小助手】的测试程序。";
+                    responseMessage.Content = "您已经退出【Leo】的测试程序。";
                 }
             }
             else
