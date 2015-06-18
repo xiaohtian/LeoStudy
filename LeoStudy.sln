@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoStudy.Common", "LeoStudy.Common\LeoStudy.Common.csproj", "{07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoStudy.Web", "LeoStudy.Web\LeoStudy.Web.csproj", "{D57A4E5F-1BED-456F-A41B-812095C1C116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57A4E5F-1BED-456F-A41B-812095C1C116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
