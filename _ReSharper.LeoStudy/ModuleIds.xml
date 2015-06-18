@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="07904A53-7BB6-48A5-ABF0-ED6EA64C8EF4" ModuleId="LeoStudy.Common" />
+  <Module PersistentId="D57A4E5F-1BED-456F-A41B-812095C1C116" ModuleId="LeoStudy.Web" />
 </Modules>
